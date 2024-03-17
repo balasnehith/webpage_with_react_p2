@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+.appHeader{
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 0px;
+    z-index: 2;
+}
+.appSideNav{
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+    display: block;
+    top: 0px;
+    left: 0px;
+}
+.appSideNavInner{
+    width: 250px;
+    padding-top: 42px;
+    position: fixed;
+    height: inherit;
+    display: block;
+}
+.appText{
+    margin-left: 250px;
+    margin-top: 42px;
+}
+.appTextInner{
+    width: 100%;
+    min-height: 100vh;
+}
+
+@media (max-width: 992px) {
+    .appSideNav{
+        display: none;
+    }
+    .appText{
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.sideNavContainer{
+    width: inherit;
+    height: inherit;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    font-family: 'roboto';
+    background-color: hsl(34, 15%, 91%);
+    display: block;
+}
+.sideNavContainer a{
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 3px 2px 3px 24px;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+.sideNavContainer a:hover{
+    background-color: hsl(34, 15%, 71%);
+    
+}
+.sideNavContainer span{
+    display: block;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}

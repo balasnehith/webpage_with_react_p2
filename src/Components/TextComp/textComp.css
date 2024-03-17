@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.tectContainer{
+    padding: 20px;
+    font-family: 'roboto';
+    width: 100%;
+}
+.tectContainer p{
+    text-align: justify;
+}
