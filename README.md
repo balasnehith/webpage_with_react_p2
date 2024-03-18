@@ -1,8 +1,7 @@
-# React + Vite
+Basic website project which improves positioning skills of elements with reactiveness. 
+use dev tools to anylize elemets (both parent and child elements) for better understanding
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive nav-bar and side nav-bar which you can toggle with button (if screen width is more than 992px it will be visible by default) and body of the page which contains content 
+This application is build using react and i have added comments in app.jsx files for better understanding
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Thank you
