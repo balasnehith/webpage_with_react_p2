@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.tectContainer{
+    padding: 20px;
+    font-family: 'roboto';
+    width: 100%;
+}
+.tectContainer p{
+    text-align: justify;
+}
+.tectContainer .selectContainer button{
+    font-size: 1.3rem;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(70, 198, 70);
+    color: #fff;
+    padding: 3px 15px;
+}
+.tectContainer .displaySelectContainer{
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    background-color: rgb(69, 69, 89);
+    color: #fff;
+    border-radius: 10px;
+}
