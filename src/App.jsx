@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Components/Header/Header";
 import SideNav from "./Components/SideNav/SideNav";
-import TextComp from "./Components/TextComp/TextComp";
+import TextComp from "./Components/TextComp/HomePage/TextComp";
 import Contact from "./Components/Contact/Contact";
 import About from "./Components/About/About";
 import "./App.css";
